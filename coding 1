@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	char ch;
+	scanf("%c",&ch);
+	if((ch > 'A') && (ch < 'Z')||(ch > 'a') && (ch < 'z'))
+		printf("Alphabets");
+	else if((ch>0&&ch<100))
+		printf("Digitis");
+	else
+		printf("Special");
+}
